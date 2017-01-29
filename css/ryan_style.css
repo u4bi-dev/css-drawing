@@ -1,0 +1,23 @@
+/* 선택자와 선택자 사이에 공백은 하위 요소는 선택하는 것을 의미함
+   다중 클래스 사용할 경우에 공백없이 바로 붙여 사용해야함. */
+
+/* 귀 공통 스타일 */
+.ryan .ear {
+  position: absolute;
+  top: 0;
+  width: 92px;
+  height: 92px;
+  border: 10px solid #000;
+  border-radius: 100%;
+  background: #d59729;
+}
+
+/* 왼쪽 귀 위치 */
+.ryan .ear.left {
+  left: 54px;
+}
+
+/* 오른쪽 귀 위치 */
+.ryan .ear.right {
+  right: 54px;
+}
