@@ -17,6 +17,18 @@ body{
   height: 380px;
 }
 
+/* 라이언의 얼굴 스타일 */
+.ryan .face{
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  height: 367px;
+  border-radius: 100%;
+  border: 10px solid #000;
+  background: #d59729;
+}
+
+
 /* 선택자와 선택자 사이에 공백은 하위 요소는 선택하는 것을 의미함
    다중 클래스 사용할 경우에 공백없이 바로 붙여 사용해야함. */
 
