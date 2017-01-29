@@ -52,3 +52,23 @@ body{
 .ryan .ear.right {
   right: 54px;
 }
+
+/* 눈썹 공통 스타일 */
+.ryan .eyebrow {
+  position:absolute;
+  top: 106px;
+  width: 78px;
+  height: 14px;
+  border-radius: 14px;
+  background: #000;
+}
+
+/* 왼쪽 눈썹 위치 */
+.ryan .eyebrow.left{
+  left: 68px;
+}
+
+/* 오른쪽 눈썹 위치*/
+.ryan .eyebrow.right{
+  right: 68px;
+}
