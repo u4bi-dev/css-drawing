@@ -1,3 +1,22 @@
+/* *은 전체 선택자 */
+*, *:after, *:before{
+  /* padding이나 border-width로 인해 전체 사이즈에 대한 영향을 받지 않도록 선언함 */
+  box-sizing: border-box;
+}
+
+/* 라이언과 잘 어울리는 색상을 배경으로 설정 */
+body{
+  background: #313654;
+}
+
+/* 라이언의 전체 영역 잡음 */
+.ryan{
+  position: relative;
+  margin: 50px auto;
+  width: 400px;
+  height: 380px;
+}
+
 /* 선택자와 선택자 사이에 공백은 하위 요소는 선택하는 것을 의미함
    다중 클래스 사용할 경우에 공백없이 바로 붙여 사용해야함. */
 
