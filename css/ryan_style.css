@@ -72,3 +72,22 @@ body{
 .ryan .eyebrow.right{
   right: 68px;
 }
+
+/* 눈 공통 스타일 */
+.ryan .eye {
+  position: absolute;
+  top: 147px;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background: #000;
+}
+
+/* 왼쪽 눈 위치 */
+.ryan .eye.left{
+  left: 98px;
+}
+/* 오른쪽 눈 위치 */
+.ryan .eye.right{
+  right: 98px;
+}
