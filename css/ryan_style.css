@@ -105,3 +105,24 @@ body{
      해당 속성은 왼쪽위, 오른쪽위, 오른쪽아래, 왼쪽아래 (시계방향으로 진행함) */
   background: #000;
 }
+
+/* 입 공통 스타일 */
+.ryan .mouth {
+  position: absolute;
+  top: 191px;
+  width: 73px;
+  height: 68px;
+  border: 10px solid #000;
+  border-radius: 100%;
+  background: #fff;
+}
+
+/* 입 좌측 부분 위치 */
+.ryan .mouth.left {
+  left: 127px;
+}
+
+/* 입 우측 부분 위치 */
+.ryan .mouth.right {
+  right: 127px;
+}
