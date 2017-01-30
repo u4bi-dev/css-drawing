@@ -100,6 +100,8 @@ body{
   margin-left: -16px;
   width: 32px;
   height: 33px;
-  border-radius: 100%;
+  border-radius: 80% 80% 100% 100%;
+  /* 코를 좀더 자연스럽게함
+     해당 속성은 왼쪽위, 오른쪽위, 오른쪽아래, 왼쪽아래 (시계방향으로 진행함) */
   background: #000;
 }
