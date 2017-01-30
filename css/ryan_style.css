@@ -91,3 +91,15 @@ body{
 .ryan .eye.right{
   right: 98px;
 }
+
+/* 코 위치 */
+.ryan .nose {
+  position: absolute;
+  top: 184px;
+  left: 50%;
+  margin-left: -16px;
+  width: 32px;
+  height: 33px;
+  border-radius: 100%;
+  background: #000;
+}
