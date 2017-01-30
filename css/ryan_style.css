@@ -131,3 +131,12 @@ body{
 .ryan .mouth.right {
   right: 127px;
 }
+
+.ryan .mouth:before { /* before 통한 content속성의 가상요소 넣어줌*/
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: red; /* test를 위한 색상 추후 #fff로 변경 */
+  z-index: 1;
+}
