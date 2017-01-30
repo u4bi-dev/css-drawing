@@ -104,6 +104,11 @@ body{
   /* 코를 좀더 자연스럽게함
      해당 속성은 왼쪽위, 오른쪽위, 오른쪽아래, 왼쪽아래 (시계방향으로 진행함) */
   background: #000;
+  z-index: 1;
+  /* z-index 로 입보다 코가 위로 올라가도록 함 쌓이게 함
+     http://www.w3schools.com/cssref/pr_pos_z-index.asp
+     얼굴의 뒤 -1 / 입의 뒤 0 / 입의 앞 1
+  */
 }
 
 /* 입 공통 스타일 */
