@@ -135,8 +135,19 @@ body{
 .ryan .mouth:before { /* before 통한 content속성의 가상요소 넣어줌*/
   content: "";
   position: absolute;
-  width: 5px;
-  height: 5px;
-  background: red; /* test를 위한 색상 추후 #fff로 변경 */
+  top:2px;
+  width: 30px;
+  height: 33px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  background: #fff;
   z-index: 1;
+}
+
+.ryan .mouth.left:before {
+  left: 29px; /* 좌측 기준에서 29px 떨어진 */
+}
+
+.ryan .mouth.right:before {
+  right: 29px; /* 우측 기준에서 29px 떨어진 */
 }
