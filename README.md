@@ -26,6 +26,7 @@
    </div>
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfLTVJNVJrRkx0RE0)
+
 2. - - [라이언 귀 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/77790f2bba48c262e1fba98d304aaafbb364a9e8)
    - **`.ryan .ear` : 양쪽 귀에 공동으로 들어갈 스타일 요소**
       - `앱솔루트, 탑0, 높이너비92px, 보더10px검은색 줄선`
@@ -62,6 +63,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfaXhJUUhsS1Q3OXc)
+
 3. - - [라이언의 전체 영역 스타일 잡기](https://github.com/u4bi/css-drawing-Character/commit/b2bf2728680ca6058e93e8e25de10aad8ffcb841)
    - **`.ryan` : 라이언의 전체 영역**
       - `릴렉티브로 설정, 마진의 너비 50px 마진의 높이는 auto`
@@ -91,6 +93,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfOUVfZ2Z5RFY1TGs)
+
 4. - - [라이언 얼굴 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/cf8d5d1525a2b5be60b324ef87bbc566d44cbb85)
    - 라이언 영역안에서 바로 아래 붙는 원을 그림
    - **`.ryan .face` : 라이언의 얼굴 원형**
@@ -110,6 +113,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfLTRPU1Z6UkxycTA)
+
 5. - - [라이언 눈썹 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/39249752686658323ccd14c6bef8f36dfdebe9d2)
    - **`.ryan .eyebrow` : 양쪽 눈썹에 공통으로 들어갈 스타일 요소**
      - `앱솔루트, 탑106px, 너비78px, 높이14px, 보더반지름14px, 배경색 검은계열`
@@ -150,6 +154,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfZlRTbmRBREI5NXc)
+
 6. - - [라이언 눈 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/28f60a455ca80a90a823c9b221f2dbe028496f40)
    - **`.ryan eye` : 양쪽 눈에 공통으로 들어갈 스타일 요소**
       - `앱솔루트, 탑147px, 너비높이26px, 보더반지름100%, 배경색 검은계열`
@@ -193,6 +198,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfWGQ3ZDBLdEY0ckk)
+
 7. - - [라이언 코 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/d3473500f5a1ed9e84a064c64ec82470d2dbdb9d)
    - **`.ryan .nose` : 가운데 코에 들어갈 스타일 요소**
      - `앱솔루트, 탑 184, 좌측 기준에서 50% 떨어진 곳에 배치`
@@ -225,6 +231,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfUUlfVk1qbUlCRU0)
+
 8. - - [라이언 코 border-radius 속성 수정](https://github.com/u4bi/css-drawing-Character/commit/6c4ea73da37bcfbb1f17945b5a1f5ec77a33e8ab)
    - 코를 좀더 자연스럽게 하기 위함
    - **`border-radius` : 속성값 수정**
@@ -244,6 +251,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfcTliYmhPTWJuTkE)
+
 9. - - [라이언 입 스타일 정의](https://github.com/u4bi/css-drawing-Character/commit/38c81c69ac8892d67dac84a989d8b8e75a96ae55)
    - **`.ryan .mouth` : 양축 부분 입에 공통으로 들어갈 스타일 요소**
      - `앱솔루트, 탑191px, 너비73px, 높이68px`
@@ -286,6 +294,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfUHhPcWxiQkdhOFU)
+
 10. - - [nose 클래스와 mouth 클래스의 쌓힘 순서 조정](https://github.com/u4bi/css-drawing-Character/commit/7db8c5d590fe4d4e6c6e2d29f6640dcded5ca969)
    - **`.ryan .nose { z-index }` : 코의 렌더링 순서**
      - `z-index의 속성값을 1로 조정` 
@@ -304,6 +313,7 @@
    }  
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfM3pleUpubndqejQ)
+
 11. - - [라이언의 입부분에 content속성을 가진 before 요소 추가](https://github.com/u4bi/css-drawing-Character/commit/de97208a02cb179c4586aac8189c3393a1d26da1)
    - 입을 좀더 자연스럽게 하기 위한 작업
    -  `입 중앙의 검은 줄선을 흰색 배경을 가진 content 속성으로 덮는다.`
@@ -324,6 +334,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfQ3R2VTl3ckFIUkE)
+
 12. - - [라이언의 입부분에 추가된 content 속성의 스타일 요소 정의](https://github.com/u4bi/css-drawing-Character/commit/2b2b5fd674725bfc65c4f3d30da4cc94ceeadd99)
    - 흰 배경의 content 속성을 알맞는 크기로 조정해 검은선 덮기
    - **`ryan .mouth:before` : 입의 가상요소에 공동으로 추가된 content 속성**
@@ -360,6 +371,7 @@
    }
   ```
 ![Alt text](http://drive.google.com/uc?export=view&id=0B3XkfYbZArSfTDJwYmZCcXZrakk)
+
 13. - - [라이언의 코를 입에 추가된 가상요소의 앞으로 조정](https://github.com/u4bi/css-drawing-Character/commit/45facb88157e63f8660355f5395133b8f8fdbe75)
    - 입의 가상요소가 코를 덮고 있는데 코를 위로 쌓음
    - **`.ryan .nose { z-index }` : 코의 렌더링 순서**
